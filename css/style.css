@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -76,9 +76,10 @@ a {
         letter-spacing: 0.04em;
         color: #fff;
         background: #4d5ae5;
+        cursor: pointer;
 }
 
-.title-btn:hover
+.title-btn:hover,
 .title-btn:focus{
     font-weight: 500;
         font-size: 16px;
@@ -143,14 +144,14 @@ a {
 /* ---PORTFOLIO--- */
 .portfolio {}
 
-.portfolio-titile {
+.portfolio-title {
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .portfolio-list {}
